@@ -7,6 +7,6 @@ public class SimpleTest
     @Test
     public void testFoo() throws Exception
     {
-        Simple.printf("hello %s\n", "world");
+        Simple.puts("hello world\n");
     }
 }

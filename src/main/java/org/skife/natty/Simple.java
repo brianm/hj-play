@@ -12,6 +12,6 @@ public class Simple
         LIBRARY.load();
     }
 
-    public static native int printf(String message, String... args);
+    public static native int puts(String message);
 
 }
